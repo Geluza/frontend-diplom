@@ -4,7 +4,7 @@
 }
 
 .header {
-  background-image: url('./image/header.png');
+  background-image: url('../../image/header.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -102,7 +102,7 @@
   margin-right: 24px;
 }
 .reverse_arrow {
-  background-image: url(./image/there-back.png);
+  background-image: url(../../image/there-back.png);
   width: 24px;
   height: 24px;
   margin-top: 16px;
@@ -182,7 +182,7 @@ margin-top: 30px;
 }
 
 .main_about_working_servis {
-  background-image: url('./image/main.png');
+  background-image: url('../../image/main.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -265,7 +265,7 @@ margin-top: 30px;
 }
 
 .photo_clients1 {
-  background-image: url('./image/response/response_photo1.png');
+  background-image: url('../../image/response/response_photo1.png');
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -274,7 +274,7 @@ margin-top: 30px;
 }
 
 .photo_clients2 {
-  background-image: url('./image/response/response_photo2.png');
+  background-image: url('../../image/response/response_photo2.png');
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -388,19 +388,19 @@ margin-left: 36px;
 }
 
 .contacts_link-phone{
-  background-image: url('./image/footer/phone.jpg');
+  background-image: url('../../image/footer/phone.jpg');
 }
 
 .contacts_link-email{
-  background-image: url('./image/footer/mail.png');
+  background-image: url('../../image/footer/mail.png');
 }
 
 .contacts_link-skype{
-  background-image: url('./image/footer/skype.png');
+  background-image: url('../../image/footer/skype.png');
 }
 
 .contacts_link-location{
-  background-image: url('./image/footer/location.png');
+  background-image: url('../../image/footer/location.png');
 }
 
 .contacts-list_item {
@@ -492,43 +492,43 @@ margin-left: 30px;
 }
 
 .contacts_link-youtube {
-  background-image: url('./image/footer/youtube.png');
+  background-image: url('../../image/footer/youtube.png');
   width: 38px;
   height: 30px;
 }
 
 .contacts_link-i {
-  background-image: url('./image/footer/I.png');
+  background-image: url('../../image/footer/I.png');
   width: 7px;
   height: 21px;
 }
 
 .contacts_link-n{
-  background-image: url('./image/footer/n.png');
+  background-image: url('../../image/footer/n.png');
   height: 21px;
   width: 21px;
 }
 
 .contacts_link-g{
-  background-image: url('./image/footer/G.png');
+  background-image: url('../../image/footer/G.png');
   width: 30px;
   height: 30px;
 }
 
 .contacts_link-plus{
-  background-image: url('./image/footer/plus.png');
+  background-image: url('../../image/footer/plus.png');
   width: 13px;
   height: 13px;
 }
 
 .contacts_link-facebook{
-  background-image: url('./image/footer/facebook.png');
+  background-image: url('../../image/footer/facebook.png');
   width: 14px;
   height: 30px;
 }
 
 .contacts_link-twitter{
-  background-image: url('./image/footer/twitter.png');
+  background-image: url('../../image/footer/twitter.png');
   width: 37px;
   height: 30px;
 }
@@ -594,7 +594,7 @@ color: #E5E5E5;
   background-repeat: no-repeat;
   background-position: center;
   background-color:  #2D2B2F;
-  background-image: url("./image/footer/arrow.png");
+  background-image: url("../../image/footer/arrow.png");
   width: 13px;
   height: 8px;
   border: 1px solid #E5E5E5;

@@ -1,0 +1,16 @@
+
+
+.last_tickets_title {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.last_tickets {
+  width: 378px;
+}

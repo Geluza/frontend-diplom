@@ -1,0 +1,81 @@
+
+
+.aboutTicket {
+  width: 100vw;
+  display: flex;
+  background-color: #3E3C41;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+
+.about_ticket_elem {
+ height: 98px;
+ align-items: center;
+ position: relative;
+ margin-left: 65px;
+}
+
+.text_section {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+color: #FFFFFF;
+margin-left: 23px;
+}
+
+.number_section {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.about_ticket_elem:not(:last-child):before {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: -36px;
+  width: 0;
+  height: 0;
+  content: "";
+  border-top: 50px solid transparent;
+  border-left: 35px solid #ffffff;
+  border-bottom: 50px solid transparent;
+}
+
+
+.about_ticket_elem:not(:last-child):after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  z-index: 3;
+  top: 0;
+  right: -36px;
+  content: "";
+  border-top: 50px solid transparent;
+  border-left: 35px solid #3e3c41;
+  border-bottom: 50px solid transparent;
+}
+
+.number_text_section {
+  margin-top: 30px;
+}
+
+.number_section {
+  width: 56px;
+  height: 56px;
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  font-size: 36px;
+  line-height: 42px;
+  padding: 5px;
+}

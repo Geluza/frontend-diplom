@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding:0;
+}
+
+.date_title_there, .date_title_back {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  margin-top: 43px;
+  color: #FFFFFF;
+}
+
+.date_trip_there, .date_trip_back {
+width: 295px;
+height: 43px;
+background: #FFFFFF;
+border-radius: 3px
+}
+
+.details_selection {
+  width: 360px;
+  background-color: #3E3C41;
+  padding-top: 43px;
+ 
+}
+
+.section_dates {
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 30px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 34px;
+  margin-left: 33px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #FFA800;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #FFA800;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+.train_fares_list {
+  list-style-type: none;
+  padding-top: 30px;
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fares_elem {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+width: 102px;
+color: #FFFFFF;
+}
+
+.dates_container {
+  width: 295px;
+  margin-left: auto;
+  margin-right: auto;;
+}
+
+.train_fares {
+  padding-bottom: 26px;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.price_trip_title {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+
+color: #FFFFFF;
+}
+
+.price_trip {
+  padding-top: 37px;
+  padding-bottom: 45px;
+}
+
+.switch_limit_price {
+  width: 272px;
+}

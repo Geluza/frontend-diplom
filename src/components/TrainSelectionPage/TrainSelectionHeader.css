@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url('../../image/train-selection/train_selection.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+}
+.header_text {
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.header_text_list {
+  list-style-type: none;
+  display: flex;
+  width: 828px;
+  padding-left: 258px;
+
+}
+
+.list_element:not(:first-child) {
+ margin-left: 26px;
+}
+
+.list_element {
+  line-height: 94px;
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 300px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #E5E5E5;
+  font-family: Roboto;
+  margin-left: 258px;
+  padding-top: 21px;
+}
+
+.header_list_wrap {
+  height: 94px;
+  width: 100vw;
+  background-color: #292929;
+}
+
+
+
+.window_booking {
+  width: 1490px;
+  background-color: #292929;
+  opacity: 80%;
+  padding-left: 21px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 111px;
+  padding-top: 28px;
+}
+.route {
+  color:#FFFFFF;
+  font-size: 30px;
+  font-family: Roboto;
+  line-height: 35px;
+}
+
+.route_there {
+  width: 325px;
+  height: 60px;
+  
+}
+.route_select {
+  display: flex;
+}
+
+.route_back {
+  width: 325px;
+  height: 60px;
+  margin-right: 24px;
+}
+.reverse_arrow {
+  background-image: ('../../image/train-selection/train_selection.png');
+  width: 24px;
+  height: 24px;
+  margin-top: 16px;
+  margin-left:8px;
+  margin-right: 8px;
+}
+.date_windows {
+  display: flex;
+}
+.search_tickets {
+  color: #292929;
+  background-color: #FFA800;
+  width: 323px;
+  height: 60px;
+  box-sizing: border-box;
+  margin-left: 364px;
+  margin-top: 92px;
+  font-size: 24px;
+  font-weight: 700px;
+  border: none;
+}
+.date {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 35px;
+color: #FFFFFF;
+}
+
+.date_there, .date_back {
+  width: 324px;
+  height: 60px;
+}
+.date_back {
+  margin-left: 40px;
+}
+
+
+.route_date_section {
+  display: flex;
+}
+
+.route_select, .date_windows {
+  margin-top: 22px;
+}
+
+.search_tickets {
+  margin-top: 47px;
+  margin-left: 1126px;
+  margin-bottom: 92px;
+}
+
+.date_route {
+  margin-left: 35px;
+}
+
+.aboutTicket {
+  width: 100vw;
+  height: 98px;
+  display: flex;
+  background-color: #3E3C41;
+  align-items: center;
+}
+
+
+.about_ticket_elem {
+  width: 25%;
+  border-right: 1px solid #E5E5E5;
+  border-radius: 45deg;
+
+}
+
+.text_section {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+color: #FFFFFF;
+margin-left: 23px;
+}
+
+.number_section {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
